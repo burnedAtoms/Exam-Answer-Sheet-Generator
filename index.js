@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import { Document, Paragraph, Packer, TextRun } from "docx";
 var index = 1
-const maxIndex = 60;
+const maxIndex = parseInt(process.argv.slice(2)[0],10);
 
 function AnswerSheetGen(maxIndex){
   var sheet = [];
@@ -19,7 +19,7 @@ const doc = new Document({
         properties: {},
         children: [
             new Paragraph({
-                children: AnswerSheetGen(60),
+                children: AnswerSheetGen(maxIndex || 60),
             }),
         ],
     },
