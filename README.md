@@ -1,4 +1,4 @@
 ## Run Command 
 ```
-NODE index.js
+node index.js
 ```
