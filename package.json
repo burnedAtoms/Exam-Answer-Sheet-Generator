@@ -1,0 +1,19 @@
+{
+  "name": "exam-answer-sheet-generator",
+  "version": "1.0.0",
+  "description": "Generate Multiple Choice answer sheets",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "exam-answer-sheet-generator"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docx": "^8.5.0"
+  }
+}
